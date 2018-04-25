@@ -406,3 +406,15 @@ footer p {
     right: 135px;
     top: 100px;
 }
+
+.iphone-on {
+    position: absolute;
+    right: 175px;
+    top: 112px;
+    width: 54%;
+}
+
+.iphone-btn {
+    position: absolute;
+    right: 215px;
+}
