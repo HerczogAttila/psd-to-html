@@ -100,6 +100,9 @@ p, ul li, ol li {
     max-width: 1100px;
     width: 100%;
     margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    padding: 40px 20px;
 }
 
 body {
@@ -112,7 +115,7 @@ h1 {
 }
 
 #hero {
-    background-image: url('../img/hero-bg.png');
+    background-image: linear-gradient(rgba(218, 51, 46, 0.6), rgba(218, 51, 46, 0.6)), url('../img/hero-bg.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -139,4 +142,58 @@ h2 {
 .nav li a:hover {
     border-bottom: 4px solid white;
     transition: border-bottom 0.1s, color, 0.1s;
+}
+
+#hero h2 {
+    color: white;
+    margin-bottom: 40px;
+}
+
+.cta {
+    display: inline-block;
+    margin-top: 90px;
+}
+
+.images {
+    float: right;
+    position: absolute;
+    right: -135px;
+}
+
+.iphone {
+    width: 85%;
+    position: relative;
+    margin-bottom: -240px;
+}
+
+.cta-info {
+    width: 60%;
+    padding-right: 150px;
+    float: left;
+    color: white;
+}
+
+.hero-para {
+    font-size: 36px;
+    line-height: 40px;
+    font-family: 'HelveticaNeue-Thin', sans-serif;
+}
+
+.cta-button {
+    padding: 23px 35px;
+    background: #282828;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.cta-button:hover {
+    background: #383737;
+    transition: 0.3s;
+}
+
+.phone-icon {
+    vertical-align: middle;
+    padding-right: 20px;
 }
