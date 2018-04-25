@@ -344,3 +344,31 @@ footer p {
     font-size: 11px;
     margin-top: 5px;
 }
+
+.copyright .container {
+    padding: 40px;
+}
+
+.copyright {
+    background-color: #d7dedc;
+}
+
+.inline {
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.cr, .me {
+    margin-right: 40px;
+}
+
+.fb, .tw {
+    margin-right: 40px;
+}
+
+.cr:after, .me:after {
+    content: "";
+    border: 1px solid #555555;
+    margin-left: 30px;
+}
