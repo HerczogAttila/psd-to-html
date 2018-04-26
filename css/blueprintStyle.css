@@ -1,0 +1,33 @@
+.black-holder {
+    background-color: black;
+    height: 500px;
+    width: 500px;
+    margin: 100px auto 0 auto;
+    position: relative;
+}
+
+.yellowBox {
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    right: 135px;
+}
+
+.redBox {
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    right: 135px;
+    top: 300px;
+}
+
+.greenBox {
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    right: 135px;
+    top: 100px;
+}
