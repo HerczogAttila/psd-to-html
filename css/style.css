@@ -199,7 +199,7 @@ h2 {
     padding-right: 20px;
 }
 
-#app-features {
+#app-features .container {
     text-align: center;
     padding: 60px 20px;
 }
@@ -223,8 +223,10 @@ h2 {
 }
 
 .col-4-app p {
+    font-family: 'HelveticaNeue-Thin', sans-serif;
     font-size: 18px;
     line-height: 24px;
+    color: #646464;
 }
 
 .row {
@@ -250,20 +252,16 @@ h2 {
     padding: 200px 0;
 }
 
-#nose .container {
-
-}
-
 #nose h2 {
     margin-bottom: 40px;
     color: white;
 }
 
-#nose p {
+.nose-p {
     font-size: 24px;
     line-height: 30px;
     font-family: 'HelveticaNeue-Thin', sans-serif;
-    padding-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .download-btn {
@@ -337,7 +335,7 @@ footer p {
 
 .ul-tweets li {
     list-style: none;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .smallText {
@@ -347,6 +345,7 @@ footer p {
 
 .copyright .container {
     padding: 40px;
+    text-align: center;
 }
 
 .copyright {
@@ -355,7 +354,7 @@ footer p {
 
 .inline {
     display: inline-block;
-    font-size: 20px;
+    font-size: 15px;
     vertical-align: middle;
 }
 
@@ -375,41 +374,7 @@ footer p {
 .cr:after, .me:after {
     content: "";
     border: 1px solid #555555;
-    margin-left: 30px;
-}
-
-.black-holder {
-    background-color: black;
-    height: 500px;
-    width: 500px;
-    margin: 100px auto 0 auto;
-    position: relative;
-}
-
-.yellowBox {
-    background-color: yellow;
-    height: 100px;
-    width: 100px;
-    position: absolute;
-    right: 135px;
-}
-
-.redBox {
-    background-color: red;
-    height: 150px;
-    width: 150px;
-    position: absolute;
-    right: 135px;
-    top: 300px;
-}
-
-.greenBox {
-    background-color: green;
-    height: 200px;
-    width: 200px;
-    position: absolute;
-    right: 135px;
-    top: 100px;
+    margin-left: 35px;
 }
 
 .iphone-on {
@@ -441,7 +406,7 @@ footer p {
     opacity: 1;
 }
 
-@media only screen and (max-width: 1240px) {
+@media only screen and (max-width: 1120px) {
 
     .cta-info {
         padding-right: 40px;
@@ -478,7 +443,7 @@ footer p {
         margin: 15px 0;
     }
 
-    .fr, .tw, .dr {
+    .fb, .tw, .dr {
         margin-top: 20px;
     }
 
@@ -494,7 +459,7 @@ footer p {
     .burger-nav {
         background: url('../img/hamburger.png') no-repeat 100% center;
         display: block;
-        height: 33px;
+        height: 31px;
         width: 40px;
         cursor: pointer;
         float: right;
@@ -528,7 +493,7 @@ footer p {
         margin: 0;
     }
 
-    .container nav ul li a {
+    .container nav ul li a:hover {
         border: none;
     }
 }
