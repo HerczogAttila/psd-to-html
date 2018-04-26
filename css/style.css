@@ -359,6 +359,11 @@ footer p {
     vertical-align: middle;
 }
 
+.inline a {
+    text-decoration: none;
+    color: black;
+}
+
 .cr, .me {
     margin-right: 40px;
 }
@@ -434,4 +439,12 @@ footer p {
 
 .js-wp-3.animated {
     opacity: 1;
+}
+
+@media only screen and (max-width: 1240px) {
+
+    .logo {
+        display: none;
+    }
+
 }
