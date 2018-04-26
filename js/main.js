@@ -1,13 +1,17 @@
 $(document).ready(function () {
     new WOW().init();
 
-    $('.js-wp-2').waypoint(function (direction) {
+    $('.burger-nav').on('click', function () {
+        $('.container nav ul').toggleClass('open');
+    });
+
+    $('.js-wp-2').waypoint(function () {
         $('.js-wp-2').addClass('animated slideInUp');
     }, {
         offset: '70%'
     });
 
-    $('.js-wp-3').waypoint(function (direction) {
+    $('.js-wp-3').waypoint(function () {
         $('.js-wp-3').addClass('animated fadeIn');
     }, {
         offset: '70%'
