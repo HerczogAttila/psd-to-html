@@ -426,3 +426,12 @@ footer p {
 .js-wp-2.animated {
     opacity: 1;
 }
+
+.js-wp-3 {
+    opacity: 0;
+    animation-delay: 3.2s;
+}
+
+.js-wp-3.animated {
+    opacity: 1;
+}
